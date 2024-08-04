@@ -79,3 +79,41 @@ a {
 	width: 45%;
 
 }
+
+.image_section {
+	padding-top: 24px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 100px;
+}
+
+.information_header {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 24px;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+
+.image_container {
+	width: 175px;
+}
+
+.image {
+	border-width: 4px;
+	border-style: solid;
+	border-color: #3882F6;
+	border-radius: 16px;
+	height: 165px;
+}
+
+.subtext {
+	text-align: center;
+}
