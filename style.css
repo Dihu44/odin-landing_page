@@ -60,6 +60,7 @@ a {
 
 .hero_image {
 	background-color: grey;
+	color: #F9FAF8;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -144,4 +145,41 @@ a {
 	align-self: flex-end;
 	font-weight: bold;
 	margin-right: 40px;
+}
+
+.cta_section {
+	padding-top: 75px;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 75px;
+}
+
+.cta_container {
+	padding: 48px 100px;
+	background-color: #3882F6;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cta_container .sign_up {
+	border: 2px solid white;
+}
+
+.cta_header {
+	color: #F9FAF8;
+	font-size: 150%;
+}
+
+.cta_instruction {
+	color: #E5E7EB;
+}
+
+.footer {
+	background-color: #1F2937;
+	color: #E5E7EB;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	display: flex;
+	justify-content: center;
 }
