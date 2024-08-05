@@ -117,3 +117,31 @@ a {
 .subtext {
 	text-align: center;
 }
+
+.quote_section {
+	padding-top: 125px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	/*flex-direction: column;*/
+	background-color: #E5E7EB;
+}
+
+.quote_container {
+	display: flex;
+	flex-direction: column;
+}
+
+.quote {
+	width: 825px;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 100;
+}
+
+.quotee {
+	align-self: flex-end;
+	font-weight: bold;
+	margin-right: 40px;
+}
